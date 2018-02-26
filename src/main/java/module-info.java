@@ -5,7 +5,6 @@ module org.cryptomator.webdav.server {
 
 	requires javax.servlet.api;
 	requires javax.inject;
-	requires jsr305;
 
 	requires org.slf4j;
 	requires org.cryptomator.webdav.servlet;
